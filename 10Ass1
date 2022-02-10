@@ -1,0 +1,20 @@
+#python program to generate student result whether pass or fail.
+studentno=int(input("enter student no:"))
+studentname=input("enter student name:")
+studentgroup=input("enter student group")
+sub1=int(input("telugu:"))
+sub2=int(input("english:"))
+sub3=int(input("OS:"))
+sub4=int(input("java:"))
+sub5=int(input("AFM:"))
+sub1>=35
+sub2>=35
+sub3>=35
+sub4>=35
+sub5>=35
+if sub1>35 and sub2>35 and sub3>35 and sub4>35 and sub5>35:
+#when condition is true
+        print("pass")
+#when condition is false
+else:
+        print("fail")
